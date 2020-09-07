@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cryptotext:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cryptotext_jar</output-path>
+    <root id="archive" name="cryptotext.jar">
+      <element id="module-output" name="cryptotext" />
+    </root>
+  </artifact>
+</component>
