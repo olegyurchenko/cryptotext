@@ -43,6 +43,8 @@ public class Main {
     String line;
     while ((line = reader.readLine()) != null) {
       src.append(line);
+      if(mode == Mode.ENCRYPT)
+        src.append('\n');
     }
 
     if (mode == Mode.ENCRYPT) {
